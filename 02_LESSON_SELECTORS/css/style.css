@@ -1,0 +1,56 @@
+/* Universal Selector - usually used to reset CSS styles, but can be used for other things: */
+/*
+
+* {
+    font-family: monospace;
+}
+
+*/
+
+/* The Universal Selector is not inheritance.  It is actually applied to all elements.  */
+
+* {
+    border: 3px solid black;
+}
+
+body {
+    font-size: 22px;
+    width: 50%;
+    /* border: 3px solid black; */
+    
+}
+
+main {
+    font-family: monospace;
+
+}
+
+h1, h2 {
+    color: blue;
+}
+
+p {
+    color: purple !important;
+    
+}
+p {
+    color: red;
+    
+}
+
+.highlight {
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+/* Applying a class to a span element */
+
+
+.gray {
+    color: gray;
+}
+
+
+#second {
+    font-style: italic;
+}
